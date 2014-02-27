@@ -1,6 +1,6 @@
 {
   "name": "grunt-google-cdn-implicit",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Grunt task for injecting Google CDN scripts into html",
   "main": "Gruntfile.js",
   "scripts": {
