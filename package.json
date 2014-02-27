@@ -1,7 +1,7 @@
 {
-  "name": "grunt-google-cdn",
+  "name": "grunt-google-cdn-implicit",
   "version": "0.2.2",
-  "description": "Grunt task for replacing refs to resources on the Google CDN",
+  "description": "Grunt task for injecting Google CDN scripts into html",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "grunt test"
@@ -13,12 +13,10 @@
     "grunt-contrib-nodeunit": "~0.1.2"
   },
   "dependencies": {
-    "bower": "~0.9.2",
-    "google-cdn": "~0.1.0"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/btford/grunt-google-cdn"
+    "url": "git://github.com/whyleee/grunt-google-cdn-implicit"
   },
   "keywords": [
     "grunt",
@@ -28,6 +26,6 @@
   "files": [
     "tasks/cdnify.js"
   ],
-  "author": "Brian Ford",
+  "author": "Brian Ford (grunt-google-cdn), forked by Pavel Nezhencev",
   "license": "BSD"
 }
