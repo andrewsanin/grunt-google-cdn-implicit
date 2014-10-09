@@ -92,7 +92,7 @@ module.exports = function (grunt) {
         }
       });
       
-      content = content.replace('    <!-- build:cdn -->\r\n', scriptsRefStr);
+      content = content.replace('    <!-- build:cdn -->', scriptsRefStr);
 
       grunt.file.write(file.path, content);
     });
